@@ -1,0 +1,11 @@
+{
+    "name": "Covid test tracker for UK",
+    "version": "1.0.0",
+    "description": "blah blah blah",
+    "manifest_version": 3,
+    "author": "Hitchiker",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    }
+}
