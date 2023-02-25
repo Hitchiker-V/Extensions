@@ -9,7 +9,7 @@
     <!-- Work to display a table for displaying covid stats -->
     <div class="container mt-3" style="width: 450px;">
     <h2 class="text-center">Covid Latest Report-UK</h2>
-    <table class="table table-bordered">
+    <table class="table table-bordered" id="table1">
         <thread>
             <tr>
                 <th>Date</th>
@@ -19,14 +19,11 @@
             </tr>
         </thread>
         <tbody>
-            <tr>
-                <td id ="date"></td>
-                <td id ="areaName"></td>
-                <td id ="latestBy"></td>
-                <td id ="deathNew"></td>
+            <tr id ="data">
             </tr>
         </tbody>
     </table>
+    <button class="btn btn-info btn-block btn-primary btn-lg" id ="refresh" >Get Data</button>
     </div>
 </body>
 <!-- Lets code up the JS for this -->
